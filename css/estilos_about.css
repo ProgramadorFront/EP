@@ -1,0 +1,156 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Seccion Header */
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #5a61bd;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 120px;
+    z-index: 999;
+}
+ 
+.logo{
+    display: flex;
+    padding: 0 15px;
+    height: 100%;
+}
+
+.logo img{
+    width: 150px;
+    height: 100%;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    font-family: 'Oswald';
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav li a{
+    color: black;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    background-color: rgba(144, 238, 144, 0.6);
+    border-radius: 6px;
+    
+}
+
+button{
+    background-color: blueviolet;
+    width: 200px;
+    height: 80px;
+    border-radius: 20px;
+}
+
+button a{
+    color: black;
+    text-decoration: none;
+}
+
+button:hover{
+    background-color: lightgreen; 
+    text-decoration: underline;
+}
+
+/* Seccion de Section */
+
+.sobre-nosotros {
+    margin-top: 100px;
+    padding: 40px;
+    text-align: center;
+    background-color: #f5f5f5;
+  }
+  
+  .sobre-nosotros h2 {
+    margin-bottom: 20px;
+  }
+
+  .fondo img{
+    width: 100%;
+    margin: 0px;
+  }
+  
+  .por-que-elegirnos {
+    padding: 40px;
+    background-color: #e0e0e0;
+    margin: 0px;
+  }
+  
+  .por-que-elegirnos h2 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .por-que-elegirnos .contenido {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .imagen-placeholder img {
+    width: 250px;
+    height: 250px;
+  }
+  
+/* Seccion de Footer */
+
+.contenedor-footer {
+    background-color: #5a61bd;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+    font-size: 14px;
+}
+
+.seccion footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+    text-align: center;
+}
+
+.redes-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.icono {
+    font-size: 18px;
+    color: black;
+}
+
+.icono:hover{
+    text-shadow: 2px 2px 2px red;
+}
+
+.division-footer {
+    width: 1px;
+    height: 50px;
+    background-color: black;
+}

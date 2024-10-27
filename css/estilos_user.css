@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: white;
+}
+
+.contenedor-logo {
+    width: 320px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 10px;
+}
+
+.avatar img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+h2 {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #5A7DFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4862cc;
+}
+
+.opciones {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 65px;
+}
+
+.opciones a {
+    color: #5A7DFF;
+    text-decoration: none;
+}
+
+.opciones a:hover {
+    text-decoration: underline;
+}
+
+p {
+    font-size: 14px;
+    color: #555;
+}
+
+p a {
+    color: #5A7DFF;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+.cuerpo {
+    display: flex;
+    flex-direction: column;
+}
+
+.cuerpo p{
+    font-size: 10px;
+}
